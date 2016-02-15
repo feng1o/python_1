@@ -1,4 +1,3 @@
-# _*_ coding:utf-8 _*_
 # import random
 guess = int(temp)
 while guess != secret:
