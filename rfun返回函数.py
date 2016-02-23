@@ -12,8 +12,8 @@ def returnFun(*arg):
 fun = returnFun(1, 2, 3, 4, 5, 6)  # 返回的并不是求和结果，而是求和函数：
 print(fun())
 
-fun = returnFun(1, 2, 3, 4, 5, 6)  # i闭包，结果不影响，两个不同的数：
-print(fun())
+fun1 = returnFun(1, 2, 3, 4, 5, 6)  # i闭包，结果不影响，两个不同的数：
+print(fun1())
 
 # 闭包 返回闭包时牢记的一点就是：返回函数不要引用任何循环变量，或者后续会发生变化的变量。
 

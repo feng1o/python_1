@@ -39,4 +39,19 @@ def publicFun(name):
         return _privateFun2(name)
     else:
         return _privateFun1(name)
+print('jieguo= %s' % publicFun("xxxx"))
 
+
+# 第三方的模块使用pip安装的 cmd下 pip install Pillow安装图像处理库
+from PIL import Image
+im = Image.open("pic.jpg")
+print(im.format, im.size, im.mode)
+im.thumbnail((200, 100))
+im.save('xx.jpg', 'JPEG')
+
+# 路径问题《import xx后可能找不到，
+#  两种方法改变：
+#   一是直接修改sys.path，添加要搜索的目录：  >>> import sys >>> sys.path.append('/Users/michael/my_py_scripts') 
+#    第二种方法是设置环境变量PYTHONPATH，该环境变量的内容会被自动添加到模块搜索路径中。
+print(sys.path)
+# sys.path.append('')
