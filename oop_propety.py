@@ -27,7 +27,7 @@ class Student2(object):
 
     # __slots__ = ('name', 'age', 'cla')
 
-    @property
+    @property  # @property装饰器就是负责把一个方法变成属性调用的：
     def name(self):
         return self._name  # 必须有_
 
@@ -38,7 +38,7 @@ class Student2(object):
         self._name = names   # 必须有_
 
 st2 = Student2()
-st2.name = "lf"  # OK，实际转化为s.set_score(60)
+st2.name = "lf"  # OK，实际转化为s.set_name('lf')
 print('st2.name = %s' % st2.name)
 
 
