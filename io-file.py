@@ -42,7 +42,7 @@ f = open('file1.txt', 'r', encoding='gbk', errors='ignore')
 
 
 # xie文件，，
-with open('file1.txt', 'w') as fw: 
-	#fw.write("write file............................")
+with open('file1.txt', 'a') as fw:   # w  a
+	fw.write("write file............................")
 with open('file1.txt', 'r') as fw: 
 	print(fw.read())
