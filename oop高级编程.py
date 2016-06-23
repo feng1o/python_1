@@ -80,7 +80,7 @@ class Student(object):
     def get_score(self):
          return self._score
 
-    def set_score(self, value):
+    def set_score(self, value):  # 此方法判定比较麻烦
         if not isinstance(value, int):
             raise ValueError('score must be an integer!')
         if value < 0 or value > 100:
@@ -88,4 +88,4 @@ class Student(object):
         self._score = value
 st1 = Student()
 st1.set_score(80)
-st1.set_score(800)  # 报错
+# st1.set_score(800)  # 报错
