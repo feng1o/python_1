@@ -8,7 +8,7 @@ conn = pymysql.connect(
     host='192.168.1.120',
     port=3306, user='root',
     passwd='feng123',
-    db='sys',
+    db='db1',
     charset='UTF8'
 )  # connection
 cur = conn.cursor()  # coursion 交互
@@ -20,7 +20,7 @@ cur.close()
 
 # select
 cselect = conn.cursor()
-cselect.execute("select * from sys")
+cselect.execute("select * from tb1")
 print(cselect.rowcount())
 conn.close()
 
