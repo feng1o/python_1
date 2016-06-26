@@ -4,11 +4,13 @@
 ########## prepare ##########
 import pymysql
 print(pymysql)
+
+
 conn = pymysql.connect(
     host='192.168.1.120',
     port=3306, user='root',
     passwd='feng123',
-    db='db1',
+    # db='mysql',
     charset='UTF8'
 )  # connection
 cur = conn.cursor()  # coursion 交互
@@ -16,14 +18,20 @@ cur.execute("select version()")
 print('\n')
 for i in cur:
     print(i)
+cur.execute("use db1")
+# cur.execute("CREATE TABLE users(id INT, name VARCHAR(20))")
+cur.execute("INSERT INTO users VALUES(1,'lf'), (2, 'x'), (3, 'b')")
+
+cur.execute("select * FROM users")
+data = cur.fetchall()
+
+for row in data:
+	print('%s \t %s' %row)
+
+
 cur.close()
-
-# select
-cselect = conn.cursor()
-cselect.execute("select * from tb1")
-print(cselect.rowcount())
+conn.commit()
 conn.close()
-
 
 '''
 # install mysql-connector-python:
