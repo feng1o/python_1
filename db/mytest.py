@@ -4,7 +4,11 @@
 import pymysql
 
 conn = pymysql.connect(
+<<<<<<< HEAD
     host='192.168.1.107',
+=======
+    host='192.168.1.120',
+>>>>>>> refs/remotes/origin/master
     port=3306,
     user='root',
     passwd='feng123',
