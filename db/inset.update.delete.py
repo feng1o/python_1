@@ -4,7 +4,7 @@
 import pymysql
 
 conn = pymysql.connect(
-    host='192.168.1.120',
+    host='192.168.1.123',
     port=3306,
     user='root',
     passwd='feng123',
