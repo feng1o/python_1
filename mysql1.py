@@ -5,11 +5,11 @@
 import pymysql
 print(pymysql)
 conn = pymysql.connect(
-    host='192.168.1.120',
+    host='127.0.0.1',
     port=3306, user='root',
     passwd='feng123',
-    db='sys',
-    charset='UTF8'
+    db='mysql',
+  #  charset='UTF8'
 )  # connection
 cur = conn.cursor()  # coursion 交互
 cur.execute("select version()")

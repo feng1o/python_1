@@ -53,7 +53,7 @@ def fib2(max):
         yield(b)
         a, b = b, a + b
         n = n + 1
-    return 'done'
+   # return 'done'
 for i in fib2(20):
     print(i)
 
