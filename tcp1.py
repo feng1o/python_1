@@ -9,8 +9,8 @@ while  True:
 	d = s.recv(1024)
 	if d:
 		buffer.append(d)
-	else
-	break
+	else :
+		break
 data = b''.join(buffer)
 s.close();
 header, html = data.split(b'\r\n\r\n', 1)
