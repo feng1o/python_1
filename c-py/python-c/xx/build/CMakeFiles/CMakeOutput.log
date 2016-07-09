@@ -1,0 +1,415 @@
+The system is: Linux - 2.6.32-279.el6.i686 - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/python_1/c-py/python-c/xx/build/CMakeFiles/3.4.0-rc2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/python_1/c-py/python-c/xx/build/CMakeFiles/3.4.0-rc2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_68d7c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_68d7c.dir/build.make CMakeFiles/cmTC_68d7c.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68d7c.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_68d7c.dir/testCCompiler.c.o   -c /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_68d7c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68d7c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_68d7c.dir/testCCompiler.c.o  -o cmTC_68d7c -rdynamic 
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0f60c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0f60c.dir/build.make CMakeFiles/cmTC_0f60c.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0f60c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f60c.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o  -o cmTC_0f60c -rdynamic  
+Using built-in specs.
+Target: i686-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/
+LIBRARY_PATH=/usr/local/boost_1_55_0/stage/lib/:./:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f60c' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_0f60c /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/local/boost_1_55_0/stage/lib -L. -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_0f60c/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0f60c.dir/build.make CMakeFiles/cmTC_0f60c.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0f60c]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f60c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o  -o cmTC_0f60c -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/boost_1_55_0/stage/lib/:./:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f60c' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_0f60c /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/local/boost_1_55_0/stage/lib -L. -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
+    arg [/usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0f60c] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/local/boost_1_55_0/stage/lib] ==> dir [/usr/local/boost_1_55_0/stage/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTC_0f60c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/boost_1_55_0/stage/lib] ==> [/usr/local/boost_1_55_0/stage/lib]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/boost_1_55_0/stage/lib;/usr/lib/gcc/i686-redhat-linux/4.4.7;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9c9fc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9c9fc.dir/build.make CMakeFiles/cmTC_9c9fc.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c9fc.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_9c9fc.dir/feature_tests.c.o   -c /home/python_1/c-py/python-c/xx/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9c9fc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c9fc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9c9fc.dir/feature_tests.c.o  -o cmTC_9c9fc -rdynamic 
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c89] compiler features compiled with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c75d4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c75d4.dir/build.make CMakeFiles/cmTC_c75d4.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c75d4.dir/feature_tests.c.o
+/usr/bin/cc    -std=c89 -o CMakeFiles/cmTC_c75d4.dir/feature_tests.c.o   -c /home/python_1/c-py/python-c/xx/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c75d4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c75d4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c75d4.dir/feature_tests.c.o  -o cmTC_c75d4 -rdynamic 
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d3ca7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d3ca7.dir/build.make CMakeFiles/cmTC_d3ca7.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3ca7.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d3ca7.dir/testCXXCompiler.cxx.o -c /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d3ca7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3ca7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d3ca7.dir/testCXXCompiler.cxx.o  -o cmTC_d3ca7 -rdynamic 
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_be925/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_be925.dir/build.make CMakeFiles/cmTC_be925.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_be925
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be925.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_be925 -rdynamic  
+Using built-in specs.
+Target: i686-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/
+LIBRARY_PATH=/usr/local/boost_1_55_0/stage/lib/:./:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be925' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_be925 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/local/boost_1_55_0/stage/lib -L. -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_be925/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_be925.dir/build.make CMakeFiles/cmTC_be925.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_be925]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be925.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_be925 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/boost_1_55_0/stage/lib/:./:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_be925' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_be925 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/local/boost_1_55_0/stage/lib -L. -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
+    arg [/usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_be925] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/local/boost_1_55_0/stage/lib] ==> dir [/usr/local/boost_1_55_0/stage/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTC_be925.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/boost_1_55_0/stage/lib] ==> [/usr/local/boost_1_55_0/stage/lib]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> [/usr/lib/gcc/i686-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/boost_1_55_0/stage/lib;/usr/lib/gcc/i686-redhat-linux/4.4.7;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++0x] compiler features compiled with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f63e6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f63e6.dir/build.make CMakeFiles/cmTC_f63e6.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f63e6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++0x -o CMakeFiles/cmTC_f63e6.dir/feature_tests.cxx.o -c /home/python_1/c-py/python-c/xx/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f63e6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f63e6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f63e6.dir/feature_tests.cxx.o  -o cmTC_f63e6 -rdynamic 
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cc589/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cc589.dir/build.make CMakeFiles/cmTC_cc589.dir/build
+gmake[1]: Entering directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc589.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_cc589.dir/feature_tests.cxx.o -c /home/python_1/c-py/python-c/xx/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cc589
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc589.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_cc589.dir/feature_tests.cxx.o  -o cmTC_cc589 -rdynamic 
+gmake[1]: Leaving directory `/home/python_1/c-py/python-c/xx/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -O0 -shared -fPIC   -lpthread   CMakeFiles/server.so.dir/rw_data.cpp.o CMakeFiles/server.so.dir/message.cpp.o CMakeFiles/server.so.dir/tcp_listen.cpp.o CMakeFiles/server.so.dir/threadpoll.cpp.o CMakeFiles/server.so.dir/main.cpp.o CMakeFiles/server.so.dir/error.cpp.o  -o server.so -rdynamic -lpthread 
