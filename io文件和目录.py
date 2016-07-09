@@ -68,7 +68,7 @@ os.path.split('/Users/michael/testdir/file.txt')
 # ('/Users/michael/testdir', 'file.txt')
 
 #os.path.splitext()可以直接让你得到文件扩展名
- '''文件扩展名，很多时候非常方便：'''
+'''文件扩展名，很多时候非常方便：'''
 
 os.path.splitext('/path/to/file.txt')
 # ('/path/to/file', '.txt')
@@ -107,3 +107,7 @@ for x in files:
 '''
 Python的os模块封装了操作系统的目录和文件操作，要注意这些函数有的在os模块中，有的在os.path模块中。
 '''
+
+import sys
+
+res = os.write(sys.stdout.fileno(), b'hello...\n')
