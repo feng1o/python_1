@@ -30,4 +30,5 @@ class EchoHandler(StreamRequestHandler):
 if __name__ == '__main__':
     serv = TCPServer(('', 20000), EchoHandler)
     TCPServer.allow_resuse_address = True
+    # serv.socket.setsockopt(socket.SOL_SOKCET,socket.SO_REUSEADDR, True);
     serv.serve_forever()

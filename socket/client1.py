@@ -3,14 +3,14 @@ import socket
 
 
 # HOST = '127.0.0.1'  # 远程socket服务器ip
-HOST= '127.0.0.1' # 远程socket服务器ip
-PORT = 8888        # 远程socket服务器端口
+HOST= '115.28.159.75' # 远程socket服务器ip
+PORT = 10028         # 远程socket服务器端口
 
 BUFFSIZE = 1024
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # 实例化socket
 s.connect((HOST, PORT))  # 连接socket服务器
 
-print(socket.geth1ostname())
+print(socket.gethostname())
 print(socket.gethostbyaddr("127.0.0.1"))
 while True:
     msg = input("Your msg::")  # 让用户输入消息，去除回车和空格
