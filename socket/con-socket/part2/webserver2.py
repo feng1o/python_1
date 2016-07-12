@@ -1,6 +1,10 @@
 # Tested with Python 2.7.9, Linux & Mac OS X
 import socket
+<<<<<<< HEAD
 from io import StringIO
+=======
+import StringIO
+>>>>>>> dab571b25108abd57c778cbc4c8a850c54a7f1af
 import sys
 
 
