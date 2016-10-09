@@ -1,0 +1,30 @@
+train   PATH_a......train path_a.................
+Train Begin !!!!!!!!
+training running time = 0 s
+I0803 13:10:49.054224 26912 DBManager.cpp:46] picture 20160707164302.jpg 40
+I0803 13:10:49.054265 26912 DBManager.cpp:46] picture 20160711140108.jpg 50
+I0803 13:10:49.054276 26912 DBManager.cpp:46] picture 20160722172117.jpg 51
+I0803 13:10:49.054286 26912 DBManager.cpp:46] picture 20160803130340.jpg 167
+I0803 13:10:49.054309 26912 DBManager.cpp:50] DBManager :: DB get success ! data has been showed above
+I0803 13:10:49.054505 26912 DBManager.cpp:69] some empty rows in mysql
+I0803 13:10:49.054533 26912 DBManager.cpp:69] some empty rows in mysql
+I0803 13:10:49.054549 26912 DBManager.cpp:69] some empty rows in mysql
+I0803 13:10:49.054580 26912 DBManager.cpp:69] some empty rows in mysql
+I0803 13:10:49.054780 26912 DBManager.cpp:111] url : videos/20160722155135.mp4 (mj?) Id : 39
+I0803 13:10:49.054805 26912 DBManager.cpp:111] url : videos/20160803130415.mp4 (mj?) Id : 94
+I0803 13:10:49.054939 26912 ClientSession.cpp:55] ClientSession :: Send to Root OK!
+I0803 13:10:49.054960 26912 ClientSession.cpp:56] ClientSession :: begin read header again... 
+I0803 13:11:03.038460 26912 ClientSession.cpp:75] ClientSession :: Header shows : proto length : 33
+I0803 13:11:03.038579 26912 ClientSession.cpp:87] ClientSession :: Read proto ing... : 
+W0803 13:11:03.038599 26912 ClientSession.cpp:105] H-READ_file...........................
+
+
+I0803 13:11:03.038615 26912 ClientSession.cpp:108] ClientSession :: Read proto SUCCESSFUL 
+I0803 13:11:03.038633 26912 ClientSession.cpp:125] ClientSession :: Proto show it is SEARCH_REQUEST 
+I0803 13:11:03.038647 26912 ClientSession.cpp:132] ClientSession :: Proto shows : picture_length : 27114 picture name : test
+I0803 13:11:03.038822 26912 ClientSession.cpp:268] ClientSession :: file path ../picsource/tmp/1470201063038732
+W0803 13:11:03.038844 26912 SearchSession.cpp:52] 
+
+ match. PATH_a........match.............../picsource/picFeatures
+open error /home/onglchen/proenv/userlib/TrainDataDir/20160803130340.jpg
+nodeserver_test: /usr/local/include/boost/thread/pthread/mutex.hpp:108: boost::mutex::~mutex(): Assertion `!posix::pthread_mutex_destroy(&m)' failed.

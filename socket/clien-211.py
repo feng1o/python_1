@@ -7,9 +7,8 @@ import time
 
 
 # HOST = '127.0.0.1'  # 远程socket服务器ip
-#HOST = '115.28.159.75'  # 远程socket服务器ip
-HOST = '118.114.229.110'
-PORT = 9999        # 远程socket服务器端口
+HOST = '120.25.241.211'  # 远程socket服务器ip
+PORT = 7004        # 远程socket服务器端口
 
 BUFFSIZE = 1024
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # 实例化socket
@@ -17,12 +16,17 @@ s.connect((HOST, PORT))  # 连接socket服务器
 
 print(socket.gethostname())
 print(socket.gethostbyaddr("127.0.0.1"))
-while True:
+Tru = 1
+while Tru==1:
+    Tru = 2
     # msg = input("Your msg::")  # 让用户输入消息，去除回车和空格
     # msg = input("Your msg::").strip() #让用户输入消息，去除回车和空格
-    msg = '12'
-    if len(msg) < 4:
-        fix = 4 - len(msg)
+    #keepOnstr = "000000000079{\"Content-Length\":\"0\",\"picture_length\":\"0\",\"picture_name\":\"test\",\"retrain\":\"1\"}"
+    jhead = "{\"Content-Length\":10,\"picture_length\":10,\"picture_name\":\"test\"}"
+    msg = str(len(jhead))
+    #msg = '12'
+    if len(msg) < 12:
+        fix = 12 - len(msg)
         for x in range(0, fix):
             msg = '0' + msg
             print(msg)
@@ -31,9 +35,10 @@ while True:
     s.send(msg.encode('utf-8'))  # 向服务器发送消息
     # s.send("a0001fdg".encode())
     # s.send("abcdefdg".encode())
-    if (int)(msg) == 12:
+    s.send(jhead.encode())
+    if (int)(msg) == 63:
         print('msg...length ok...')
-        s.send("123456789111".encode())
+        s.send("1234567891".encode())
     # s.send(str.encode())
     data = s.recv(BUFFSIZE).decode()  # 接收服务器的消息
 
