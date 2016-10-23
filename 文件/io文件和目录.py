@@ -39,7 +39,6 @@ import os
 print(os.name)
 # print(os.uname)
 # print(os.environ)
-print(".......get paht....")
 print(os.environ.get('PAHT'))
 
 
@@ -48,7 +47,8 @@ print(os.environ.get('PAHT'))
 操作文件和目录的函数一部分放在os模块中，一部分放在os.path模块中，这一点要注意一下。：'''
 
 # 查看当前目录的绝对路径:
-print("路径...%s" % os.path.abspath('.'))
+os.path.abspath('.')
+
 # 在某个目录下创建一个新目录，首先把新目录的完整路径表示出来:
 os.path.join('./', 'testdir')
 

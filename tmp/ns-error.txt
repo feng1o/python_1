@@ -19,7 +19,7 @@ I0803 13:11:03.038579 26912 ClientSession.cpp:87] ClientSession :: Read proto in
 W0803 13:11:03.038599 26912 ClientSession.cpp:105] H-READ_file...........................
 
 
-I0803 13:11:03.038615 26912 ClientSession.cpp:108] ClientSession :: Read proto SUCCESSFUL 
+ClientSession.cpp:108] ClientSession :: Read proto SUCCESSFUL 
 I0803 13:11:03.038633 26912 ClientSession.cpp:125] ClientSession :: Proto show it is SEARCH_REQUEST 
 I0803 13:11:03.038647 26912 ClientSession.cpp:132] ClientSession :: Proto shows : picture_length : 27114 picture name : test
 I0803 13:11:03.038822 26912 ClientSession.cpp:268] ClientSession :: file path ../picsource/tmp/1470201063038732

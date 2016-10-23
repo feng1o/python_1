@@ -9,7 +9,6 @@
 #   * use $ python client3.py --max-conns 128 to simulate the behavior    #
 #                                                                         #
 ###########################################################################
-#_*_coding:utf-8_*_
 import errno
 import os
 import signal
@@ -49,7 +48,7 @@ def serve_forever():
         except IOError as e:
             code, msg = e.args
             # restart 'accept' if it was interrupted
-            if code == errno.EINTR:  # continue accept可能是被信号处理sigchld中断了
+            if code == errno.EINTR:
                 continue
             else:
                 raise

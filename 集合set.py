@@ -1,4 +1,5 @@
 # _*_ coding:utf-8 _*_
+help(str)
 set1 = set([1, 2, 3, (123, 23), 4, 4, 5, 6, 7, 8, 9, 10])
 for x in set1:
 	print('.', x)
