@@ -5,9 +5,10 @@ import sys
 import os
 import time
 
-
+''' 发送json训练请求到server'''
 # HOST = '127.0.0.1'  # 远程socket服务器ip
 HOST = '120.25.241.211'  # 远程socket服务器ip
+# HOST = '182.92.10.18'
 PORT = 7004        # 远程socket服务器端口
 
 BUFFSIZE = 1024
