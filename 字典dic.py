@@ -3,7 +3,7 @@ dict1 = {'大米': 4, (223,'lag'): tuple, '小麦': 2, 'apple': 6.8}
 for x in dict1:
     print(x)
     print(dict1[x])
-
+help(dict)
 # 判定key在不在里面
 print("liufeng刘峰。。。")
 tmp = dict1.get('liufeng', 1)
