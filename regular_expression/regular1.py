@@ -32,3 +32,12 @@ str1 = str[3:]
 print(str1)
 
 print(str1.find("o"))
+
+
+print("\n\n\n")
+patternx = re.compile(r'\s*Sir\s+\w+(,\s\w+)*\s(and){1}\s+\w+\s(are)')
+res = patternx.search("Sir Nancy and Andrew are Knaves!")
+if res:
+	print(res.group())
+else:
+	print("nothing ")
