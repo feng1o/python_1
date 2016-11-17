@@ -160,18 +160,25 @@ def readImage(fp):
 
 class Car(object):
 
-    target = "transportion"  # 直接在class中定义属性，这种属性是类属性
+    target = "transportion"  
+    num = 0
+    # 直接在class中定义属性，这种属性是类属性
 
     def __init__(self, target, price, lunzi):
+        super(Car, self).__init__()
         self.price = price
         self.lunzi = lunzi
         self.target = target
 
     def print(self):
+        if self.num == 0:
+            self.target = "abcdd"
         print("car.target = %s lunzi=%s, price=%s" %
               (self.target, self.lunzi, self.price))
+        print("car.target = {}".format(Car.target))
 
 mycar = Car("xxxx", 66666, 4)
 mycar.print()
 del mycar.target 
 mycar.print()
+print("end")

@@ -1,0 +1,29 @@
+Which text file do you want to use for the puzzle?my_test1.txt
+The Sirs are: Eleonore Sanjay 
+There are 3 solutions.
+
+Which text file do you want to use for the puzzle?my_test2.txt
+The Sirs are: Eleonore Sanjay 
+There are 2 solutions.
+
+Which text file do you want to use for the puzzle?my_test3.txt
+The Sirs are: Eleonore Sanjay 
+There is a unique solution:
+Sir Eleonore is a Knave.
+Sir Sanjay is a Knight.
+
+Which text file do you want to use for the puzzle?my_test4.txt
+The Sirs are: Eleonore Sanjay 
+There are 2 solutions.
+
+Which text file do you want to use for the puzzle?my_test5.txt
+The Sirs are: Eleonore Sanjay 
+There are 2 solutions.
+
+Which text file do you want to use for the puzzle?my_test6.txt
+The Sirs are: Andrew Bill Hilary Nancy 
+There are 5 solutions.
+
+Which text file do you want to use for the puzzle?my_test7.txt
+The Sirs are: A Andrew B Bill C D Eleonore F G Hilary Nancy 
+There are 127 solutions.

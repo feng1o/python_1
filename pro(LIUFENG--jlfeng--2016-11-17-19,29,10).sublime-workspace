@@ -1,0 +1,764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pas",
+				"pass160	statement"
+			],
+			[
+				"sl",
+				"self"
+			],
+			[
+				"len",
+				"len1"
+			],
+			[
+				"tran",
+				"TransferMoney	class"
+			],
+			[
+				"add",
+				"add_money"
+			],
+			[
+				"acc",
+				"acctid"
+			],
+			[
+				"has",
+				"has_enough_money"
+			],
+			[
+				"cur",
+				"cursor	statement"
+			],
+			[
+				"ch",
+				"check_acct_available"
+			],
+			[
+				"tr",
+				"TransferMoney"
+			],
+			[
+				"so",
+				"source_acctid	statement"
+			],
+			[
+				"de",
+				"sql_delete"
+			],
+			[
+				"sq",
+				"sql_update	statement"
+			],
+			[
+				"sql",
+				"sql_insert	statement"
+			],
+			[
+				"rs",
+				"rs	statement"
+			],
+			[
+				"fe",
+				"fetchall	function"
+			],
+			[
+				"fet",
+				"fetchone	function"
+			],
+			[
+				"ro",
+				"rowcount"
+			],
+			[
+				"exec",
+				"execute	function"
+			],
+			[
+				"re",
+				"readline	function"
+			],
+			[
+				"file",
+				"file1"
+			],
+			[
+				"stu",
+				"Student	class"
+			],
+			[
+				"na",
+				"names	param"
+			],
+			[
+				"cpe",
+				"cperson2	statement"
+			],
+			[
+				"n",
+				"name2	param"
+			],
+			[
+				"cp",
+				"cperson2	statement"
+			],
+			[
+				"pe",
+				"person"
+			],
+			[
+				"bin",
+				"bindMethodAge"
+			],
+			[
+				"get",
+				"getName	function"
+			],
+			[
+				"nam",
+				"namex	param"
+			],
+			[
+				"pri",
+				"print	function"
+			],
+			[
+				"sup",
+				"SuperPerson	class"
+			],
+			[
+				"pers",
+				"Person	class"
+			],
+			[
+				"_pr",
+				"_privateFun1	function"
+			],
+			[
+				"lsi",
+				"list1	statement"
+			],
+			[
+				"ret",
+				"returnFun	function"
+			],
+			[
+				"non",
+				"None	instance"
+			],
+			[
+				"del",
+				"delattr	function"
+			],
+			[
+				"LIS",
+				"list	class"
+			],
+			[
+				"fu",
+				"functools"
+			],
+			[
+				"iter",
+				"iterator	statement"
+			],
+			[
+				"list",
+				"list2	statement"
+			],
+			[
+				"lsit",
+				"listyy"
+			],
+			[
+				"PR",
+				"print	function"
+			],
+			[
+				"lis",
+				"list1	statement"
+			],
+			[
+				"is",
+				"isinstance	function"
+			],
+			[
+				"a",
+				"addlist2	function"
+			],
+			[
+				"my",
+				"my_fun2	function"
+			],
+			[
+				"ty",
+				"TypeError	class"
+			],
+			[
+				"se",
+				"set1	statement"
+			],
+			[
+				"dic",
+				"dict1	statement"
+			],
+			[
+				"bi",
+				"birthday	statement"
+			],
+			[
+				"cl",
+				"classmates	statement"
+			],
+			[
+				"cla",
+				"classmates"
+			],
+			[
+				"sa",
+				"Sales_data"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Sat Jul  9 00:01:13 2016\n\n***Repl Closed***\n",
+			"settings":
+			{
+				"buffer_size": 44,
+				"line_ending": "Windows",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": ":s",
+		"selected_items":
+		[
+			[
+				":s",
+				"Project: Save As"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"help",
+				"LaTeXTools: Build cache for LaTeX packages"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"PACKAGE",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"package control:lis",
+				"Package Control: List Packages"
+			],
+			[
+				"package control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"cout",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"print",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"pip install Pillow",
+			"input()",
+			"2",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/yun/python_1/socket/client1.py",
+		"/D/yun/python_1/socket/xml-rpc.py",
+		"/D/yun/python_1/closedpack.py",
+		"/D/yun/python_1/pro.py",
+		"/D/yun/python_1/字典dic.py",
+		"/D/yun/python_1/socket/socketserver1.py",
+		"/D/yun/python_1/web-app/app.py",
+		"/D/yun/python_1/socket/server1.py",
+		"/D/yun/python_1/socket/CIDR.py",
+		"/D/yun/python_1/tcp1.py",
+		"/D/yun/python_1/oop使用枚举.py",
+		"/D/yun/python_1/hello.py",
+		"/D/yun/python_1/MVC-web/app.py",
+		"/D/yun/python_1/MVC-web/templates/form.html",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/yun/python_1/MVC-web/templates/home.html",
+		"/D/yun/python_1/errorAssert断言.py",
+		"/D/yun/python_1/db/mysql1.py",
+		"/D/yun/python_1/模板MVC-web/app.py",
+		"/D/yun/python_1/db/inset.update.delete.py",
+		"/D/yun/python_1/webapp/asynio1.py",
+		"/D/yun/python_1/函数.py",
+		"/D/yun/python_1/class类继承多态对象信息.py",
+		"/D/yun/python_1/db/mytest.py",
+		"/F/software self vedio/chujitc/nodeserver/log.txt",
+		"/D/yun/python_1/sina.html",
+		"/D/yun/python_1/db/bank.record.py",
+		"/D/yun/python_1/集合set.py",
+		"/D/yun/python_1/db/select-fetch.py",
+		"/D/yun/python_1/条件循环.py",
+		"/D/yun/python_1/列表.py",
+		"/D/yun/python_1/numer匿名函数.py",
+		"/D/yun/python_1/oop使用元类.py",
+		"/D/yun/python_1/oop继承-定制类.py",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/yun/python_1/project-lxf/app.py",
+		"/D/yun/python_1/模板MVC-web/home.html",
+		"/D/yun/python_1/asyncio/asynio1.py",
+		"/D/yun/python_1/mysql1.py",
+		"/D/yun/python_1/sqlite.py",
+		"/D/yun/python_1/gui.py",
+		"/D/yun/python_1/WSGI.py",
+		"/D/yun/python_1/模板MVC-web/form.html",
+		"/D/yun/python_1/模板MVC-web/signin-ok.html",
+		"/D/yun/python_1/flask1.py",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/D/yun/python_1/template模板.py",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeX.sublime-completions",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/D/yun/latex/latex.aux",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/mylatex.sublime-build",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/myPython.sublime-build",
+		"/D/yun/latex/latex.pdf",
+		"/F/software self vedio/chujitc/Linuxfile/UN-IO/doc/READ.ME",
+		"/F/software self vedio/chujitc/Linuxfile/UN-IO/doc/鎬荤被鍥.vsdx",
+		"/F/software self vedio/chujitc/Linuxfile/UN-IO/doc/鏋舵瀯鍥%3Fvsdx.vsdx",
+		"/F/software self vedio/chujitc/Linuxfile/UN-IO/doc/楂樻€ц兘缃戠粶IO妯″潡鎶€鏈獙鏀舵爣鍑%3Fdocx.vsdx",
+		"/F/software self vedio/chujitc/CODE_8_19/说明",
+		"/C/Users/liu/Desktop/crossTheGFW/src/crossTheGFW.py",
+		"/D/yun/python_1/latex",
+		"/D/yun/python_1/latex.aux",
+		"/D/yun/python_1/latex.pdf",
+		"/C/Users/liu/Desktop/Appendices/AppendixTemplate.tex",
+		"/C/Users/liu/Desktop/Appendices/AppendixA.tex",
+		"/D/yun/python_1/io-file.py",
+		"/D/yun/python_1/元组.py",
+		"/D/yun/python_1/io-StringIO-BytesIO.PY",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeX.sublime-build.OLD",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/liu/Desktop/crossTheGFW/清理windows进程bat.lnk",
+		"/D/yun/python_1/io文件和目录.py",
+		"/D/yun/python_1/wgit",
+		"/D/yun/python_1/file1.txt",
+		"/D/yun/python_1/oop继承-定制类(LIU-PC--liu--2016-03-06-21,05,53).py",
+		"/D/yun/python_1/errordebug处理.py",
+		"/D/yun/python_1/io.py",
+		"/D/yun/python_1/error单元测试.py",
+		"/D/yun/python_1/切片迭代.py",
+		"/D/yun/python_1/oop_propety.py",
+		"/D/yun/python_1/oop高级编程.py",
+		"/D/yun/python_1/fish44定制计时器.py",
+		"/D/yun/python_1/Decorator装饰器fun.py",
+		"/D/yun/python_1/gao高阶函数.py",
+		"/D/yun/python_1/pian偏函数.py",
+		"/D/yun/python_1/rfun返回函数.py",
+		"/D/yun/python_1/dataGame.py",
+		"/D/yun/python_1/生成器.py",
+		"/D/yun/python_1/列表生成.py",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/D/yun/python_1/编码问题.py",
+		"/D/yun/python_1/__pycache__/字典dic.py",
+		"/D/yun/python_1/函数2.py",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/User/python.sublime-build",
+		"/D/Sublime Text 3/untitled.sublime-build",
+		"/D/yun/FPGA_c_pcb_m_all/my_unp/add-readn-writen-readline/makefile",
+		"/D/yun/FPGA_c_pcb_m_all/my_unp/add-readn-writen-readline/nrwserver.c",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/C/Users/liu/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/D/yun/FPGA_c_pcb_m_all/c++ primer source code/vs2012版本/7/add_item.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"s",
+			"msg",
+			"socket",
+			"main",
+			"back",
+			"word wrap",
+			"windows",
+			"# ",
+			"color",
+			"    	\n",
+			"0",
+			"print",
+			"fang",
+			"[pep]",
+			"pep",
+			")\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "D:\\yun\\python_1",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "82b8bcbd73184caa88cc1905d72973c2",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.590710382514,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/myPython.sublime-build",
+	"project": "pro.py",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"字典dic.py"
+			],
+			[
+				"help",
+				"hello.py"
+			],
+			[
+				"n",
+				"D:\\yun\\python_1\\元组.py"
+			],
+			[
+				"ty",
+				"D:\\yun\\python_1\\元组.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

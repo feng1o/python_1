@@ -17,7 +17,8 @@ print(m.group())
 print("\n\n")
 pattern = re.compile(r'(Sir|Sirs)\s+\w+')
 res = pattern.search('a Sir lf,,, Sirs xx')
-if res:print(res.group())
+if res:
+	print(res.group())
 else:
 	print("match none")
 
