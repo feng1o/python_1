@@ -1,0 +1,74 @@
+Sat 13 Aug 2016 10:26:42 INFO server2.py 41 22326 log info.....
+Sat 13 Aug 2016 10:26:42 INFO server2.py 93 22326 listen on 9999 ...
+Sat 13 Aug 2016 10:27:51 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:51 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:51 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:51 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:52 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:52 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:52 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:53 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:53 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:53 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:54 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:54 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:54 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:55 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:55 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:55 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:56 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:56 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:56 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:58 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:58 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:58 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:27:59 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:27:59 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:27:59 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:00 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:28:00 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:00 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:01 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:28:01 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:01 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:02 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:28:02 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:02 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:03 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:28:03 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:03 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:04 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:28:05 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:05 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:06 INFO server2.py 60 22397 read Headlen is:12
+Sat 13 Aug 2016 10:28:06 INFO server2.py 66 22397 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:06 INFO server2.py 57 22397 deal client connection
+
+Sat 13 Aug 2016 10:28:15 INFO server2.py 57 22423 deal client connection
+
+Sat 13 Aug 2016 10:28:15 INFO server2.py 60 22423 read Headlen is:12
+Sat 13 Aug 2016 10:28:15 INFO server2.py 66 22423 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:15 INFO server2.py 57 22423 deal client connection
+
+Sat 13 Aug 2016 10:28:16 INFO server2.py 60 22423 read Headlen is:12
+Sat 13 Aug 2016 10:28:16 INFO server2.py 66 22423 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:16 INFO server2.py 57 22423 deal client connection
+
+Sat 13 Aug 2016 10:28:17 INFO server2.py 60 22423 read Headlen is:12
+Sat 13 Aug 2016 10:28:17 INFO server2.py 66 22423 read picbody is ...123456789111
+Sat 13 Aug 2016 10:28:17 INFO server2.py 57 22423 deal client connection
+
