@@ -10,6 +10,8 @@ ADDR = (HOST, PORT)
 tcpCliSock = socket(AF_INET, SOCK_STREAM)
 tcpCliSock.connect(ADDR)
 
+print(tcpCliSock.getpeername())
+print(tcpCliSock.getsockname())
 while True:
     data = input('> ')
     if not data:
@@ -18,6 +20,7 @@ while True:
     data = tcpCliSock.recv(BUFSIZ)
     if not data:
         break
+    print(data)
     print(data.decode('utf-8'))
 
 tcpCliSock.close()
