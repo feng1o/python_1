@@ -15,6 +15,7 @@ def main():
     print 'starting threads...'
     locks = []
     nloops = range(len(loops))
+    #print 'nnnloops = ', nloops ,len(loops)
 
     for i in nloops:
         lock = thread.allocate_lock()

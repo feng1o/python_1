@@ -24,5 +24,6 @@ with open(shoplistfile,'rb') as f:
 		try:
 			storedlist  = pickle.load(f) # load the object from the file
 		except EOFError:
+			print("eof---")
 			break
 		print(storedlist)

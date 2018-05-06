@@ -1,0 +1,30 @@
+2018-03-02 01:15:53,439 INFO    : this is information
+2018-03-02 01:15:53,439 WARNING : this is warning message
+2018-03-02 01:15:53,439 ERROR   : this is error message
+2018-03-02 01:15:53,439 CRITICAL: this is fatal message, it is same as logger.critical
+2018-03-02 01:15:53,439 CRITICAL: this is critical message
+2018-03-02 01:16:29,369 INFO    : this is information
+2018-03-02 01:16:29,369 WARNING : this is warning message
+2018-03-02 01:16:29,369 ERROR   : this is error message
+2018-03-02 01:16:29,369 CRITICAL: this is fatal message, it is same as logger.critical
+2018-03-02 01:16:29,369 CRITICAL: this is critical message
+2018-03-02 01:19:08,794 INFO    : this is information
+2018-03-02 01:19:08,795 WARNING : this is warning message
+2018-03-02 01:19:08,796 ERROR   : this is error message
+2018-03-02 01:19:08,796 CRITICAL: this is fatal message, it is same as logger.critical
+2018-03-02 01:19:08,797 CRITICAL: this is critical message
+2018-03-02 01:19:31,890 INFO    : this is information
+2018-03-02 01:19:31,891 WARNING : this is warning message
+2018-03-02 01:19:31,891 ERROR   : this is error message
+2018-03-02 01:19:31,891 CRITICAL: this is fatal message, it is same as logger.critical
+2018-03-02 01:19:31,891 CRITICAL: this is critical message
+AppName2018-03-02 01:24:10,527 INFO    : this is information
+AppName2018-03-02 01:24:10,527 WARNING : this is warning message
+AppName2018-03-02 01:24:10,527 ERROR   : this is error message
+AppName2018-03-02 01:24:10,527 CRITICAL: this is fatal message, it is same as logger.critical
+AppName2018-03-02 01:24:10,527 CRITICAL: this is critical message
+AppName 2018-03-02 01:24:19,937 INFO    : this is information
+AppName 2018-03-02 01:24:19,937 WARNING : this is warning message
+AppName 2018-03-02 01:24:19,937 ERROR   : this is error message
+AppName 2018-03-02 01:24:19,937 CRITICAL: this is fatal message, it is same as logger.critical
+AppName 2018-03-02 01:24:19,937 CRITICAL: this is critical message

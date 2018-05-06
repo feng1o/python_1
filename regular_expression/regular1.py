@@ -24,11 +24,11 @@ else:
 print(end='\n\n')
 str = """a"lf" """
 print(str.find("\""))
-
+  
 
 str = 'abcdefghijk'
 str1 = str[3:]
-print(str1)
+print("str = [3:]: " + str1)
 
 print(str1.find("o"))
 

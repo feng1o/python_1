@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 'ymail.py - demo Yahoo!Mail SMTP/SSL, POP, IMAP'
 
-from io import StringIO
+from cStringIO import StringIO
 from imaplib import IMAP4_SSL
 from platform import python_version
 from poplib import POP3_SSL, error_proto
@@ -43,21 +43,21 @@ def getSubject(msg, default='(no Subject line)'):
             return default
 
 # SMTP/SSL
-print('*** Doing SMTP send via SSL...')
+print '*** Doing SMTP send via SSL...'
 if SMTP_SSL:
     try:
         s = SMTP_SSL('smtp.mail.yahoo.com', 465)
         s.login(MAILBOX, PASSWD)
         s.sendmail(from_, to, msg)
         s.quit()
-        print('    SSL mail sent!')
+        print '    SSL mail sent!'
     except SMTPServerDisconnected:
-        print('    error: server unexpectedly disconnected... try again')
+        print '    error: server unexpectedly disconnected... try again'
 else:
-    print('    error: SMTP_SSL requires 2.6.3+')
+    print '    error: SMTP_SSL requires 2.6.3+'
 
 # POP
-print('*** Doing POP recv...')
+print '*** Doing POP recv...'
 try:
     s = POP3_SSL('pop.mail.yahoo.com', 995)
     s.user(MAILBOX)
@@ -65,12 +65,12 @@ try:
     rv, msg, sz = s.retr(s.stat()[0])
     s.quit()
     line = getSubject(msg)
-    print('    Received msg via POP: %r' % line)
+    print '    Received msg via POP: %r' % line
 except error_proto:
-    print('    error: POP for Yahoo!Mail Plus subscribers only')
+    print '    error: POP for Yahoo!Mail Plus subscribers only'
 
 # IMAP
-print('*** Doing IMAP recv...')
+print '*** Doing IMAP recv...'
 try:
     s = IMAP4_SSL('imap.n.mail.yahoo.com', 993)
     s.login(MAILBOX, PASSWD)
@@ -79,6 +79,6 @@ try:
     line = getSubject(StringIO(data[0][1]))
     s.close()
     s.logout()
-    print('    Received msg via IMAP: %r' % line)
+    print '    Received msg via IMAP: %r' % line
 except error:
-    print('    error: IMAP for Yahoo!Mail Plus subscribers only')
+    print '    error: IMAP for Yahoo!Mail Plus subscribers only'

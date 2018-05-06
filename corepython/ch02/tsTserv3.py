@@ -4,8 +4,8 @@ from socket import *
 from time import ctime
 from subprocess import call
 import os
-os.system("taskList")
-call(["taskList", "-l"])
+#os.system("taskList")
+#call(["taskList", "-l"])
 
 HOST = ''
 PORT = 21567

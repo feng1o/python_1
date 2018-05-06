@@ -3,17 +3,17 @@
 
 'class'
 _author_ = "lf"
+import sys
 
-
+print ("版本 + " ,sys.version)
 class Person(object):  # 继承自object
     pass
+
 person = Person()
 person.name = "lf"  # 自由地给一个实例变量绑定属性
 print("person name = %s" % person.name)
 
 # 数据封装
-
-
 class Person(object):
     """docstring for Person"""
 
@@ -26,7 +26,9 @@ class Person(object):
         print("self.age = %d" % self.age)
 
 person1 = Person('lf', 25)
+setattr(person1, 'age', 1000000)                 # 可一个通过setattr改变属性
 person1.print()
+
 
 # 访问和限制
 

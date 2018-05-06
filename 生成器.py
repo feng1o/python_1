@@ -55,7 +55,7 @@ def fib2(max):
         n = n + 1
    # return 'done'
 for i in fib2(20):
-    print(i)
+    print("fib = {}".format(i))
 
 # g = fib2(6)
 # while True:
@@ -86,7 +86,7 @@ for tt in triangles1():
 	if n==10:
 		break
 
-
+print("............")
 def triangles():
     bb = [1]
     while True:

@@ -11,7 +11,7 @@ HOST = '120.25.241.211'  # 远程socket服务器ip
 # HOST = '182.92.10.18'
 PORT = 7004        # 远程socket服务器端口
 
-BUFFSIZE = 1024
+BUFFSIZE = 1024 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # 实例化socket
 s.connect((HOST, PORT))  # 连接socket服务器
 
@@ -39,7 +39,7 @@ while Tru==1:
     s.send(jhead.encode())
     if (int)(msg) == 63:
         print('msg...length ok...')
-        s.send("1234567891".encode())
+        s.send("123456789".encode())
     # s.send(str.encode())
     data = s.recv(BUFFSIZE).decode()  # 接收服务器的消息
 
@@ -48,5 +48,5 @@ while Tru==1:
     # break
 s.close()
 
-if __name__ == '__main__':
-    print("oooooo")
+#if __name__ == '__main__':
+ #   print("oooooo")

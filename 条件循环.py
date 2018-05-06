@@ -1,4 +1,6 @@
 # _*_ coding:utf-8 _*_
+import sys
+print(sys.version)
 print("打tests")
 age = 3
 if age >= 18:
@@ -8,7 +10,7 @@ elif age >= 6:
 else:
     print('kid')
 birthday = int(input('input number:'))
-
+print("xxxx")
 print(birthday)
 if birthday >= 2000:
 	print('00hou')

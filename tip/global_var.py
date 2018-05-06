@@ -21,3 +21,18 @@ def fun(num):
 
 if __name__ == '__main__':
     fun(2)
+
+# locals()对象的值不能修改，globals()对象的值可以修改
+z = 0
+
+
+def f():
+    z = 1
+    x = 3
+    print(locals())
+    locals()["z"] = 2
+    print('xx', locals())
+f()
+globals()["z"] = 2
+print(z)
+print(globals())

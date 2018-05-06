@@ -18,6 +18,7 @@ def getRanking(isbn):
     page = uopen('%s%s' % (AMZN, isbn)) # '{0}{1}'.format(AMZN, isbn)) for 2.6+
     data = page.read()
     page.close()
+    # print(data)
     return str(REGEX.findall(data)[0], 'utf-8')
 
 def _showRanking(isbn):
@@ -34,4 +35,5 @@ def _atexit():
     print('all DONE at:', ctime())
 
 if __name__ == '__main__':
+    print(REGEX.findall("12,23,326,234"))
     _main()

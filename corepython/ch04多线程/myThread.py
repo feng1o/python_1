@@ -16,7 +16,16 @@ class MyThread(threading.Thread):
 
     def run(self):
         if self.verb:
-            print 'starting', self.name, 'at:', ctime()
+            print ('starting', self.name, end='||')
+            print('at:', ctime())
         self.res = self.func(*self.args)
         if self.verb:
-            print self.name, 'finished at:', ctime()
+            print (self.name, end='')
+            print('finished at:', ctime())
+
+def func(arg):
+    print("func ", arg)
+
+t = MyThread(func, (1,), func.__name__, True)
+t.run()
+print(t.getResult())

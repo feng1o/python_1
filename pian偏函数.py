@@ -15,3 +15,5 @@ print(int('10011111', base=2))
 intn = functools.partial(int, base=2)
 print(intn('111101'))
 print(intn('111101', base=10))
+
+xx = put()

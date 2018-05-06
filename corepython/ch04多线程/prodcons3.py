@@ -26,6 +26,7 @@ def reader(queue, loops):
 
 funcs = [writer, reader]
 nfuncs = range(len(funcs))
+print(list(nfuncs))
 
 def main():
     nloops = randrange(2, 6)

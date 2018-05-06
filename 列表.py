@@ -1,29 +1,38 @@
 # -*- coding: utf-8 -*-
+
+print(max_int)
+def xx(b):
+	b += 1
+def x():
+	a = 1
+	xx(a)
+	print(a)
+x()
 print("list刘峰")
-classmates = ['li', '张思', '王五']
-print(classmates)
+clusterInfo = ['li', '张思', '王五']
+print(clusterInfo)
 
 print('\n直接索引列表值类似数组a[n]')
-print(classmates[0])
-print('-1last最后一个 = %s\n' % classmates[-1])
+print(clusterInfo[0])
+print('-1last最后一个 = %s\n' % clusterInfo[-1])
 
 print('追加list append\n')
-classmates.append('Adam')
-classmates.insert(1, 'Jack')  # 插入指定位置
-print('%s\n' % classmates)
+clusterInfo.append('Adam')
+clusterInfo.insert(1, 'Jack')  # 插入指定位置
+print('%s\n' % clusterInfo)
 
-print('删除pop=%s' % classmates.pop())
-print('删除pop(i)=%s\n' % classmates.pop(2))
+print('删除pop=%s' % clusterInfo.pop())
+print('删除pop(i)=%s\n' % clusterInfo.pop(2))
 
 print('替换a[i]=\n')
-classmates[1] = 22
+clusterInfo[1] = 22
 
 sublist = [1, 2, 3]
-classmates.insert(2, sublist)
-print('列表%s长度是%%\d len= %d\n' % (classmates, len(classmates)))
-print('二维list打印 classmates[2][2] = %d' % classmates[2][2])  # 二维数组的问题注意
+clusterInfo.insert(2, sublist)
+print('列表%s长度是%%\d len= %d\n' % (clusterInfo, len(clusterInfo)))
+print('二维list打印 clusterInfo[2][2] = %d' % clusterInfo[2][2])  # 二维数组的问题注意
 
-for i in classmates:
+for i in clusterInfo:
     print(i)
 
 print('''liu 

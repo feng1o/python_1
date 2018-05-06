@@ -12,15 +12,15 @@ def test():
 
 
 def guess(num):
-	epsilon = 0.01
-	step = epsilon ** 2
-	sum = 0.0
-	numGess = 0
-	while abs(sum**2 - num) >= epsilon and sum <= num:
-		sum += step
-		numGess += 1
-	print("numGess =",  numGess, sum)
-	print("numGess =",  numGess, sum, [1, 2, 3])
+    epsilon = 0.01
+    step = epsilon ** 2
+    sum = 0.0
+    numGess = 0
+    while abs(sum**2 - num) >= epsilon and sum <= num:
+        sum += step
+        numGess += 1
+    print("numGess =", numGess, sum)
+    print("numGess =", numGess, sum, [1, 2, 3])
 
 
 if __name__ == '__main__':
@@ -30,3 +30,5 @@ if __name__ == '__main__':
         pass
     test()
     guess(400)
+    print("   blank ")
+    print("full")

@@ -8,6 +8,7 @@ print(pymysql)
 
 conn = pymysql.connect(
     host='127.0.0.1',
+    #host=localhost,
     port=3306, user='root',
     passwd='feng123',
     db='mysql',
@@ -19,12 +20,12 @@ cur = conn.cursor()  # coursion 交互
 cur.execute("select version()")
 print('\n')
 for i in cur:
-    print(i)
-cur.execute("use db1")
+    print(',,%s' % i)
+cur.execute("use digitalchip")
 # cur.execute("CREATE TABLE users(id INT, name VARCHAR(20))")
-cur.execute("INSERT INTO users VALUES(1,'lf'), (2, 'x'), (3, 'b')")
+cur.execute("INSERT INTO  userlogin VALUES(1,'lf'), (2, 'x'), (3, 'b')")
 
-cur.execute("select * FROM users")
+cur.execute("select * FROM userlogin")
 data = cur.fetchall()
 
 for row in data:
