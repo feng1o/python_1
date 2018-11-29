@@ -1,0 +1,10 @@
+Fri, 04 May 2018 13:43:11 log_t.py[line:10] DEBUG This is debug message
+Fri, 04 May 2018 13:43:11 log_t.py[line:11] INFO This is info message
+Fri, 04 May 2018 13:43:11 log_t.py[line:12] WARNING This is warning message
+Fri, 04 May 2018 13:43:11 log_t.py[line:23] DEBUG This is debug message
+Fri, 04 May 2018 13:43:11 log_t.py[line:24] INFO This is info message
+Fri, 04 May 2018 13:43:11 log_t.py[line:25] WARNING This is warning message
+Fri, 04 May 2018 13:43:11 log_t.py[line:37] DEBUG This is debug message
+Fri, 04 May 2018 13:43:11 log_t.py[line:38] INFO This is info message
+Fri, 04 May 2018 13:43:11 log_t.py[line:39] WARNING This is warning message
+Fri, 04 May 2018 13:43:11 test.py[line:44] INFO ---
