@@ -1,0 +1,54 @@
+ { 
+	 tooltip: {
+			formatter: function () {
+				return '<b>' + this.series.name + '</b><br/>' +
+					this.x + ': ' + this.y;
+			}
+		},
+    chart: {
+		 backgroundColor: '#FCFFC5',
+        type: 'line'
+    },
+	chart:{
+	 backgroundColor: '#FCFFC5',
+		width: 800,
+		height: 300
+	},
+    title: {
+        text: $val,
+		style: {
+			color: 'red'
+		}
+    },
+    subtitle: {
+        text: '10天'
+    },
+    xAxis: {
+        //categories: ['05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03'],
+        categories: $xaixs ,
+		lineColor : '#ED561B'
+    },
+    yAxis: {
+        title: {
+            text: '实例总量(个)'
+        },
+		categories:{
+			min :30,
+			max : 100
+			},
+			lineColor : '#ED561B'
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {
+                enabled: true
+            },
+            enableMouseTracking: true
+        }
+    },
+    series: [{
+        name: '实例数量',
+        data: $num
+        //data: [70, 69, 95, 145, 184, 215, 252, 265, 233, 183, 139, 1000]
+    }]
+}

@@ -1,0 +1,54 @@
+ { 
+	 tooltip: {
+			formatter: function () {
+				return '<b>' + this.series.name + '</b><br/>' +
+					this.x + ': ' + this.y;
+			}
+		},
+    chart: {
+		 backgroundColor: '#FCFFC5',
+        type: 'line'
+    },
+	chart:{
+	 backgroundColor: '#FCFFC5',
+		width: 800,
+		height: 300
+	},
+    title: {
+        text: "实例数量-",
+		style: {
+			color: 'red'
+		}
+    },
+    subtitle: {
+        text: '10天'
+    },
+    xAxis: {
+        //categories: ['05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03', '05/03'],
+        categories: ['04/30', '05/01', '05/02', '05/03', '05/04', '05/05', '05/06'] ,
+		lineColor : '#ED561B'
+    },
+    yAxis: {
+        title: {
+            text: '总量 (G)'
+        },
+		categories:{
+			min :30,
+			max : 100
+			},
+			lineColor : '#ED561B'
+    },
+    plotOptions: {
+        line: {
+            dataLabels: {
+                enabled: true
+            },
+            enableMouseTracking: true
+        }
+    },
+    series: [{
+        name: '实例数量',
+        data: [10, 20, 30, 40, 50, 60, 70]
+        //data: [70, 69, 95, 145, 184, 215, 252, 265, 233, 183, 139, 1000]
+    }]
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>审计日报</title>
+    <style>
+        body
+        {
+            font-family : 微软雅黑;
+        }
+
+        sub 
+        {
+            color : red;
+            font-size : 10px;
+        }
+        body, td, th
+        {
+            color : #333;
+            font-size : 13px;
+        }
+
+        h1
+        {
+            font-size : 24px;
+        }
+
+        table
+        {
+            margin-bottom : 1em;
+            width : 100%;
+        }
+
+
+        td
+        {
+            padding : 0.5em 0;
+            text-align : center;
+            border-collapse: collapse;
+            border-bottom: 1px solid #bbbbbb;
+        }
+
+        .red {
+            color: red;
+        }
+        .paper_name {
+            text-align : center;
+            font-size: larger;
+            /*background: darkgrey;*/
+            /*color: red;*/
+        }
+
+        .cluster_name {
+            text-align : center;
+        }
+
+        .table_head
+        {
+            padding : 0.5em;
+            background-color : #8DC7ED;
+            color: #ffffff;
+        }
+
+        .table_title
+        {
+            padding : 0.1em;
+            background-color: transparent;
+            color: black;
+        }
+        .errmap {
+            margin-bottom:25px;
+            width:33%;
+            height:auto;
+            float:left;
+        }
+
+        .hpng {
+            margin-left: 10px;
+            margin-bottom:5px;
+            width:36%;
+            height:auto;
+            float:left;
+            margin-right: 150px;
+        }
+
+        .tdiv {
+            margin-left: 30px;
+            margin-bottom:5px;
+            width:680px;
+            /*width:35%;*/
+            height:auto;
+            float:left;
+            margin-right: 18px;
+        }
+
+
+        .newline{
+            clear: both;
+        }
+
+
+        .clearfix {
+            clear:both;
+            height:0;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div class="paper_name">
+        <h1>审计日报</h1>
+    </div>
+
+    <h1 >一.运营情况</h1>
+    <div class="hpng">
+    <!--<h2>1.实例总量</h2>-->
+        <div>
+            <img src="inst_num.png" alt="审计实例数量X"/>
+        </div>
+    </div>
+    <div class="hpng">
+    <!--<h2>2.审计数据总量</h2>-->
+        <div>
+            <img src="log_size.png" alt="审计数据总量"/>
+        </div>
+    </div>
+    <div class="tdiv">
+        <table>
+            <caption><h3>top10用户</h3></caption>
+            <tr>
+            <td style='width:200px' class='table_head'>用户</td>
+                <td  class='table_head'>实例数量</td>
+                <td class='table_head'>审计数据量</td>
+            </tr>
+            $usr_info
+            <!---
+            <tr>
+                <td style='width:200px'>127.0.0.1</td>
+                <td class="table_title">12.23</td>
+                <td>0</td>
+
+            </tr>
+            -->
+        </table>
+
+    </div>
+
+    <h1 class="newline"> 二.运行情况</h1>
+    <div class="tdiv">
+        <table>
+            <caption><h3>CTSDB插入延时</h3></caption>
+            <!--<th class='table_head'>ctsdb插入延时</th>-->
+            <tr>
+                <td style='width:200px' class='table_head'>es集群</td>
+                <td class="table_head">均值(s)</td>
+                <td class='table_head'>超过阈值次数(8s)</td>
+            </tr>
+            <!---
+            <tr>
+                <td style='width:200px'>127.0.0.1</td>
+                <td class="table_title">12.23</td>
+                <td>0</td>
+            </tr>
+            -->
+            $list_insert_dealy
+        </table>
+    </div>
+
+    <div class="tdiv">
+        <table>
+            <caption><h3>zk&qconf响应时间<sub>无数据表示未调用zk</sub></h3></caption>
+            <tr>
+            <td style='width:200px' class='table_head'>集群</td>
+                <td  class='table_head'>均值(s)</td>
+                <td class='table_head'>超过阈值次数(2s)</td>
+            </tr>
+            $list_zk
+            <!---
+            <tr>
+                <td style='width:200px'>127.0.0.1</td>
+                <td class="table_title">12.23</td>
+                <td>0</td>
+
+            </tr>
+            -->
+        </table>
+
+    </div>
+
+    <h1 class="newline"> 三.其他</h1>
+    <div class="hpng" text-indent:2em> <p> 无 </p>
+    </div>
+    <br>
+    <hr class="newline">
+</div>
+</body>
+</html>
