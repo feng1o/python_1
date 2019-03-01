@@ -59,7 +59,7 @@ def get_db_connection():
 def get_all_hosts(conn):
     cursor = conn.cursor()
     #one_week_ago = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime('%Y-%m-%d %H:%M:%S')
-    sql = "SELECT a.slave_ip,b.slave_port,a.master_ip,b.master_port, b.mem from tb_device_pair a JOIN tb_mysql_pair b ON  a.pair_id=b.device_pair_id JOIN  tb_app_inst  c ON  c.instance_id=b.app_id JOIN tb_dev_install_type d ON  d.package_id=b.package_id WHERE b.status not in (11) and a.xtype IN ('common','exclusive')   and  c.create_time > " + ISO_TM
+    sql = "SELECT a.slave_ip,b.slave_port,a.master_ip,b.master_port, b.mem from tb_device_pair a JOIN tb_mysql_pair b ON  a.pair_id=b.device_pair_id JOIN tb_dev_install_type d ON  d.package_id=b.package_id WHERE b.status not in (11) and a.xtype IN ('common','exclusive')   and  b.create_time > '" + ISO_TM + "'"
     logging.info(sql)
     cursor.execute(sql)
     res = cursor.fetchall()
@@ -69,7 +69,7 @@ def get_all_hosts(conn):
         hosts.append(host)
         host = (item[2], item[3], item[4])
         hosts.append(host)
-    ro_sql = "select dev.device_ip, ro.port, ro.mem from tb_ro_slave ro  join tb_ro_slave_dev dev on dev.id = ro.ro_slave_dev_id join tb_dev_install_type dtype on dtype.package_id = ro.package_id  where dev.xtype IN ('common','exclusive')  and ro.status not in (11) and ro.update_time > "  + ISO_TM
+    ro_sql = "select dev.device_ip, ro.port, ro.mem from tb_ro_slave ro  join tb_ro_slave_dev dev on dev.id = ro.ro_slave_dev_id join tb_dev_install_type dtype on dtype.package_id = ro.package_id  where dev.xtype IN ('common','exclusive')  and ro.status not in (11) and ro.update_time > '"  + ISO_TM + "'"
     logging.info(ro_sql)
     cursor.execute(ro_sql)
     roRes = cursor.fetchall()
@@ -95,12 +95,17 @@ def start_fix_conf():
         if errno != 0 :
             continue
         cursor = conn.cursor()
-        res = "show global variables like 'datadir'"
-        logging.info(res)
-        cursor.execute(res)
+    try:
+            res = "show global variables like 'datadir'"
+            logging.info(res)
+            cursor.execute(res)
+    except :
+        print("查询datadir失败，需检查实例系统表是否异常,(%s,%d)" %(item[0], item[1]))
+        logging.error("查询datadir失败，需检查实例系统表是否异常,(%s,%d)" %(item[0], item[1]))
+        continue
         dataDirArr = cursor.fetchone()
         baseDir = dataDirArr[1]
-        logging.info("data dir  = {}".format(baseDir))
+        logging.info("data dir  = {0}".format(baseDir))
         initMaxConn = int(800 if item[2] < 4000 else (item[2]/5, 10240)[item[2] > 51200])
         inLine = "max_connections = " + str(initMaxConn)
         cmd = "ajs_client_cmd  \"cd " + baseDir + " ; cp my.cnf my.cnf.iso_bak; sed '/max_connections/d' -i  my.cnf ; sed '/open_files_limit/a" + inLine + "' -i my.cnf " + "\" " + item[0]
