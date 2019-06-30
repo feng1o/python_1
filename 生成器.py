@@ -40,7 +40,8 @@ def fun():
     print('step 3')
     yield(3)
 a = fun()
-print(a)  # <generator object fun at 0x006B32D0>
+print("===yield==={}".format(a))  # <generator object fun at 0x006B32D0>
+print("-------------------")
 print(next(a))
 print(next(a))
 print(next(a))

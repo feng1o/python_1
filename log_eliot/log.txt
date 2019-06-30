@@ -1,0 +1,33 @@
+2019-04-21 00:26:02,984 - __main__ - INFO - Start print log
+2019-04-21 00:26:02,984 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:26:02,984 - __main__ - INFO - Finish
+2019-04-21 00:27:27,106 - __main__ - INFO - Start print log
+2019-04-21 00:27:27,140 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:27:27,142 - __main__ - INFO - Finish
+2019-04-21 00:27:42,314 - __main__ - INFO - Start print log
+2019-04-21 00:27:42,315 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:27:42,315 - __main__ - INFO - Finish
+2019-04-21 00:31:44,925 - __main__ - INFO - Start print log
+2019-04-21 00:31:44,926 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:31:44,926 - __main__ - INFO - Finish
+2019-04-21 00:31:44,976 - __main__ - INFO - Start print log
+2019-04-21 00:31:44,976 - __main__ - INFO - Start print log
+2019-04-21 00:31:44,977 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:31:44,977 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:31:44,977 - __main__ - INFO - Finish
+2019-04-21 00:31:44,984 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "loggingm.py", line 67, in <module>
+    open("sklearn.txt","rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
+2019-04-21 00:32:03,216 - __main__ - INFO - Start print log
+2019-04-21 00:32:03,216 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:32:03,216 - __main__ - INFO - Finish
+2019-04-21 00:32:03,258 - __main__ - INFO - Start print log
+2019-04-21 00:32:03,308 - __main__ - WARNING - Something maybe fail.
+2019-04-21 00:32:03,311 - __main__ - INFO - Finish
+2019-04-21 00:32:03,317 - __main__ - ERROR - Faild to open sklearn.txt from logger.error
+Traceback (most recent call last):
+  File "loggingm.py", line 67, in <module>
+    open("sklearn.txt","rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'sklearn.txt'
